@@ -1,4 +1,4 @@
-# EB_GFN
+# Energy-based GFlowNets
 
 Code for [Generative Flow Networks for Discrete Probabilistic Modeling](https://arxiv.org/abs/2202.01361) 
 by [Dinghuai Zhang](https://zdhnarsil.github.io/), Nikolay Malkin, [Zhen Liu](http://itszhen.com/), 
