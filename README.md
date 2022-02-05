@@ -1,7 +1,7 @@
 # Energy-based GFlowNets
 
 Code for [Generative Flow Networks for Discrete Probabilistic Modeling](https://arxiv.org/abs/2202.01361) 
-by [Dinghuai Zhang](https://zdhnarsil.github.io/), Nikolay Malkin, [Zhen Liu](http://itszhen.com/), 
+by [Dinghuai Zhang](https://zdhnarsil.github.io/), [Nikolay Malkin](https://malkin1729.github.io/), [Zhen Liu](http://itszhen.com/), 
 [Alexandra Volokhova](https://alexandravolokhova.github.io/), Aaron Courville,
 [Yoshua Bengio](https://yoshuabengio.org/).
 
