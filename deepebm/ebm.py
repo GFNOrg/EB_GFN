@@ -15,10 +15,6 @@ sys.path.append("/home/zhangdh/EB_GFN")
 from gflownet import get_GFlowNet
 import utils_data
 
-"""
-python -m deepebm.ebm --ds 1 --data dmnist --model mlp-256 --lr 1e-5 --type tblb --hl 5 --pe 1 --glr 1e-3 --zlr 1 --rc 0 --br 0.5 --mcn 1
-
-"""
 
 def makedirs(path):
     if not os.path.exists(path):

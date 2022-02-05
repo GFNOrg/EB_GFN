@@ -19,3 +19,4 @@ Discrete image modeling
 ```angular2html
 python -m deepebm.ebm --model mlp-256 --lr 1e-4 --type tblb --hid_layer 3 --hid 256 --glr 1e-3 --zlr 1 --rand_coef 0 --back_ratio 0.5 --lin_k 1 --warmup_k 5e4 --with_mh 1 --print_every 100 --mc_num 5
 ```
+

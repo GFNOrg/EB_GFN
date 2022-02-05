@@ -18,12 +18,6 @@ from synthetic_utils import plot_heat, plot_samples,\
     float2bin, bin2float, get_binmap, get_true_samples, get_ebm_samples, EnergyModel
 from synthetic_data import inf_train_gen, OnlineToyDataset
 
-"""
-For debug:
-python -m synthetic.train --data checkerboard --lr 1e-3 --type tbrf --gm mlp --hl 3 --hid 256 --pe 100 --glr 1e-3 --zlr 1 --rc 0 --br 0.5 --lk 1 --wk 1e5 --wm 1 
-python -m synthetic.train --wandb 1 --data pinwheel --lr 1e-3 --type tbrf --gm mlp --hl 3 --hid 256 --pe 100 --glr 1e-3 --zlr 1 --rc 0 --br 0.5 --lk 1 --wk 1e5 --wm 1
-python -m synthetic.train --wandb 1 --data swissroll --lr 1e-3 --type tbrf --gm mlp --hl 3 --hid 256 --pe 100 --glr 1e-3 --zlr 1 --rc 0 --br 0.5 --lk 1 --wk 1e5 --wm 1
-"""
 
 def makedirs(path):
     if not os.path.exists(path):
